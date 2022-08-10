@@ -15,7 +15,8 @@ function HomePage() {
 
   useEffect(() => { 
     dispatch(actGetListPostsAsync)
-  },[dispatch])
+
+  },[dispatch,listPosts])
 
   console.log(listPosts)
 
